@@ -1,0 +1,14 @@
+falndo de pacotes
+
+Empresas tem projetos:
+    Comercial 
+    Organizacional
+    Opensource
+
+Se a empresa se chama xpto
+    com.xptoTECH.payment.app ---> inicializar a aplicação
+    com.xptoTECH.payment.model ---> colocar as classes modelos
+    com.xptoTECH.payment.util --->
+    com.xptoTECH.payment.service ---> regras de serviço ou negócios
+    
+to make a package structure you have to create the directories one by one, and then move the .java file to the lowest level of that directory structure

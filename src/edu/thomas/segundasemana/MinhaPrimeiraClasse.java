@@ -1,3 +1,4 @@
+package edu.thomas.segundasemana;
 public class MinhaPrimeiraClasse {
 
     

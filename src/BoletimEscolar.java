@@ -1,0 +1,40 @@
+public class BoletimEscolar{
+
+    public static void main(String [] args){
+
+        String nome = "TAKASHI"; //tem que ser input do usuario
+        String sobrenome = "SOUZA"; //tem que ser input do usuario
+        String nomeCompleto = nomeAluno(nome, sobrenome);
+
+        int nota1 = 7;
+        int nota2 = 6;  
+        int nota3 = 8;
+        
+        if ((nota1 + nota2 + nota3) / 3 >= 7){
+            System.out.println("\nO aluno: "+nomeCompleto+" Aprovado");
+        } else {
+            System.out.println("\nO aluno: "+nomeCompleto+" Reprovado");
+        }
+    }
+
+    public static String nomeAluno(String nome, String sobrenome){
+   
+        return nome.concat(" ").concat(sobrenome);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

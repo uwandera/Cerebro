@@ -8,9 +8,9 @@ public static void main(String [] args){
 
     final String BR = "Brasil"; //variaveis constantes sempre são em letras maiusculas o final seta a  variavel para o valor fixo
 
-    String meuNome = "TAKASHI";
+    String meuNome = "TAKASHI"; //tem que ser input do usuario
 
-    String sobrenome = "SOUZA";
+    String sobrenome = "SOUZA"; //tem que ser input do usuario
 
     int anoFabricacao = 1969;  //camel case para nomes compostos
 

@@ -1,0 +1,38 @@
+public class MinhaPrimeiraClasse {
+
+    
+public static void main(String [] args){
+    int ano = 2025;
+
+    ano = 2024;
+
+    final String BR = "Brasil"; //variaveis constantes sempre são em letras maiusculas o final seta a  variavel para o valor fixo
+
+    String meuNome = "TAKASHI";
+
+    String sobrenome = "SOUZA";
+
+    int anoFabricacao = 1969;  //camel case para nomes compostos
+
+    boolean seraSeVira = true;
+
+    String nomeCompleto = nomeCompleto(meuNome, sobrenome);
+    System.out.println(nomeCompleto);
+
+
+
+/*  
+    int numero&um = 1; //Os únicos símbolos permitidos são _ e $
+    int 1numero = 1;    //Uma variável não pode começar com númerico
+    int numero um = 1; //Não pode ter espaço no nome da variável
+    int long = 1; //long faz parte das palavras reservadas da linguagem
+*/
+ 
+}
+
+public static String nomeCompleto(String meuNome, String sobrenome){
+   
+    return "Resultado do método " + meuNome.concat(" ").concat(sobrenome);
+}
+
+}

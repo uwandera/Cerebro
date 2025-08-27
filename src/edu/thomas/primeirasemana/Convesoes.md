@@ -12,3 +12,14 @@ Se a empresa se chama xpto
     com.xptoTECH.payment.service ---> regras de serviço ou negócios
     
 to make a package structure you have to create the directories one by one, and then move the .java file to the lowest level of that directory structure
+
+Métodos
+somar(int n1, int n2){}
+
+abrirConexao(){}
+
+concluirProcessamento() {}
+
+findById(int id){} // não se assuste, você verá muito método em inglês em sua jornada
+
+calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma única finalidade

@@ -7,14 +7,17 @@ public class BoletimEscolar{
         String nomeCompleto = nomeAluno(nome, sobrenome);
 
         int nota1 = 7;
-        int nota2 = 6;  
+        int nota2 = 4;  
         int nota3 = 8;
         
-        if ((nota1 + nota2 + nota3) / 3 >= 7){
+        if ((nota1 + nota2 + nota3) / 3 >= 7)
             System.out.println("\nO aluno: "+nomeCompleto+" Aprovado");
-        } else {
+        
+        else if ((nota1 + nota2 + nota3) / 3 < 7 && (nota1 + nota2 + nota3) / 3 >= 5)
+            System.out.println("\nO aluno: "+nomeCompleto+" em Recuperação");
+        else 
             System.out.println("\nO aluno: "+nomeCompleto+" Reprovado");
-        }
+        
     }
 
     public static String nomeAluno(String nome, String sobrenome){

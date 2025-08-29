@@ -23,3 +23,5 @@ concluirProcessamento() {}
 findById(int id){} // não se assuste, você verá muito método em inglês em sua jornada
 
 calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma única finalidade
+
+A tipagem do Java é muito forte, sempre se atentar as conversões de variaveis e como elas são usadas ou type errors vão ocorrer

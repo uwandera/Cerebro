@@ -16,6 +16,6 @@ public class TiposDeVariaveis {
         int numeroNormal = numeroCurto;
         /*short numeroCurto2 = numeroNormal;*/ // isso não é possível, pois o int é maior que o short
         short numeroCurto2 = (short) numeroNormal; // fazendo um cast, ou seja, forçando a conversão mas com a variavel ainda dentro dos parametros
-     
+        
     }
 }
